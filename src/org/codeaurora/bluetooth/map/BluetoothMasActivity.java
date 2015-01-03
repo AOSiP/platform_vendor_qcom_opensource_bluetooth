@@ -247,7 +247,7 @@ public class BluetoothMasActivity extends AlertActivity implements
         mTimeout = true;
         if (mCurrentDialog == DIALOG_YES_NO_CONNECT) {
             if(mView != null) {
-                messageView.setText(getString(R.string.map_acceptance_timeout_message,
+                messageView.setText(getString(R.string.acceptance_timeout_message,
                         getRemoteDeviceName()));
                 mAlert.getButton(DialogInterface.BUTTON_NEGATIVE).setVisibility(View.GONE);
                 mAlwaysAllowed.setVisibility(View.GONE);

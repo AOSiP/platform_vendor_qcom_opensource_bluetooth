@@ -306,7 +306,7 @@ public class BluetoothFtpActivity extends AlertActivity implements
         Button mButton =  mAlert.getButton(DialogInterface.BUTTON_NEGATIVE);
         if(V) Log.v(TAG,"onTimeout mCurrentDialog = " + mCurrentDialog);
       if (mCurrentDialog == DIALOG_YES_NO_CONNECT) {
-            messageView.setText(getString(R.string.ftp_acceptance_timeout_message,
+            messageView.setText(getString(R.string.acceptance_timeout_message,
                     BluetoothFtpService.getRemoteDeviceName()));
             mAlert.getButton(DialogInterface.BUTTON_NEGATIVE).setVisibility(View.GONE);
             mAlwaysAllowed.setVisibility(View.GONE);
@@ -314,7 +314,7 @@ public class BluetoothFtpActivity extends AlertActivity implements
         } else if (mCurrentDialog == DIALOG_YES_NO_AUTH) {
             /* Proceed to clear the view only if one created */
             if(mView != null) {
-                messageView.setText(getString(R.string.ftp_authentication_timeout_message,
+                messageView.setText(getString(R.string.authentication_timeout_message,
                         BluetoothFtpService.getRemoteDeviceName()));
                 mKeyView.setVisibility(View.GONE);
                 mKeyView.clearFocus();

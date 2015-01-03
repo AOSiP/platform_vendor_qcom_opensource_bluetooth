@@ -800,9 +800,9 @@ public class BluetoothSapService extends Service {
 
         deleteIntent.setAction(SAP_ACCESS_DISALLOWED_ACTION);
         notification = new Notification(android.R.drawable.stat_sys_data_bluetooth,
-            getString(R.string.sap_notif_ticker), System.currentTimeMillis());
-        notification.setLatestEventInfo(this, getString(R.string.sap_notif_ticker),
-                getString(R.string.sap_notif_message, name), PendingIntent
+            getString(R.string.notif_ticker), System.currentTimeMillis());
+        notification.setLatestEventInfo(this, getString(R.string.notif_ticker),
+                getString(R.string.notif_message, name), PendingIntent
                         .getActivity(this, 0, clickIntent, 0));
 
         notification.flags |= Notification.FLAG_AUTO_CANCEL;

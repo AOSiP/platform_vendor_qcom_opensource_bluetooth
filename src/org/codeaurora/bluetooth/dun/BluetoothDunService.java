@@ -857,11 +857,10 @@ public class BluetoothDunService extends Service {
         }
 
         deleteIntent.setAction(DUN_ACCESS_DISALLOWED_ACTION);
-
         notification = new Notification.Builder(this)
-                .setContentTitle(getString(R.string.dun_notif_ticker))
-                .setTicker(getString(R.string.dun_notif_ticker))
-                .setContentText(getString(R.string.dun_notif_message, name))
+                .setContentTitle(getString(R.string.notif_ticker))
+                .setTicker(getString(R.string.notif_ticker))
+                .setContentText(getString(R.string.notif_message, name))
                 .setSmallIcon(android.R.drawable.stat_sys_data_bluetooth)
                 .setAutoCancel(true)
                 .setPriority(Notification.PRIORITY_MAX)
