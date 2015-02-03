@@ -14,7 +14,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
- <string name="defaultname">Carkit</string>
+    <string name="app_name">Bluetooth extensions</string>
+
+    <string name="defaultname">Carkit</string>
     <!-- Do not translate. android:process of this application. -->
     <string name="process" translate="false"><xliff:g id="x" /></string>
 
