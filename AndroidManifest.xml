@@ -59,7 +59,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <uses-library android:name="com.quicinc.wbc"
             android:required="false" />
         <uses-library android:name="javax.obex" />
-        <uses-feature android:name="android.hardware.bluetooth_le" android:required="true" />
 <!--
         <service
             android:name = ".btcservice.BTCService">
