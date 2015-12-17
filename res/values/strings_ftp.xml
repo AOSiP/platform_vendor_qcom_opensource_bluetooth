@@ -32,8 +32,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="ftp_session_key_dialog_title">Type session key for %1$s</string>
     <string name="ftp_session_key_dialog_header">Bluetooth session key required</string>
-    <!-- Notification message when a Bluetooth device wants to pair with us -->
-    <string name="ftp_notif_message">"Touch to connect to \u0022<xliff:g id="device_name">%1$s</xliff:g>\u0022."</string>
     <!-- Notification title when a Bluetooth device wants to pair with us -->
     <string name="ftp_notif_title">Session key request for FTP</string>
     <!--Notification Title for ACTIVE SESSION -->
