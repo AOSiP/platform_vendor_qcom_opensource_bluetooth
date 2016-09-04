@@ -1,6 +1,7 @@
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
+ifeq (0,1)
 LOCAL_MODULE_TAGS := optional
 src_dirs:= src/org/codeaurora/bluetooth/hidtestapp \
 
@@ -18,3 +19,4 @@ include $(BUILD_PACKAGE)
 
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
+endif
